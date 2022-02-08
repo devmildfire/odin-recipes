@@ -1,12 +1,26 @@
-h1 {
-    color: purple;
+body {
+  background-color: darkkhaki;
+  font-family: Tahoma, 'Segoe UI', Geneva, Verdana, sans-serif;
 }
 
-div {
-    color: white;
-    background-color: black;
+h1 {
+    text-align: center;
+}
+
+img {
+  width: 40%;
+  height: auto;
+  position:fixed;
+  left: 60%;
+}
+
+  p,
+  li {
+    width: 55%;
+    text-align: justify;
   }
-  
-  p {
-    color: red;
-  }
+
+.recipe-list {
+  text-align: center;
+  width: 100%;
+}
